@@ -61,7 +61,4 @@ olshop-frontend/
 ```
 
 ---
----
 
-Dibuat untuk tugas **Deep Learning - Pertemuan 11**  
-*Training Model → Hyperparameter Tuning → Testing → Implementasi Web*
