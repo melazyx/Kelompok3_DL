@@ -9,7 +9,7 @@ import CartSidebar from './components/CartSidebar';
 import Footer from './components/Footer';
 import { bestSellerProducts, recommendedProducts, flashSaleProducts } from './data/products';
 import './App.css';
-import dataset from "./data/dataset.json";
+import dataset from "./data/meta_Amazon_Fashion_clean.json";
 
 function App() {  
  console.log(dataset);
