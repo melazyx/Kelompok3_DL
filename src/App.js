@@ -9,8 +9,11 @@ import CartSidebar from './components/CartSidebar';
 import Footer from './components/Footer';
 import { bestSellerProducts, recommendedProducts, flashSaleProducts } from './data/products';
 import './App.css';
+import dataset from "./data/dataset.json";
 
-function App() {
+function App() {  
+ console.log(dataset);
+
   const [cart, setCart] = useState([]);
   const [cartOpen, setCartOpen] = useState(false);
   const [predictionProduct, setPredictionProduct] = useState(null);
